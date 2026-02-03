@@ -4,8 +4,9 @@
 void setup() {
 // write your initialization code here
     Serial.begin(9600);
-    pinMode(triggerPin, INPUT);
+    pinMode(triggerPin, OUTPUT);
     pinMode(echoPin, INPUT);
+    Ser
 }
 
 void loop() {
