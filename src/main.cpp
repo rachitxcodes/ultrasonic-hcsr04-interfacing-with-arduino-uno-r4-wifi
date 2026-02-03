@@ -17,8 +17,6 @@ void loop() {
     digitalWrite(triggerPin, LOW);
     long duration = pulseIn(echoPin, HIGH);
     long distance = duration * 0.034 / 2;
-    Serial.print("Distance: ");
-    Serial.print(distance);
-    Serial.print(" cm");
+    Serial.println("Distance: " + String(distance) + " cm");
     delay(1000);
 }
