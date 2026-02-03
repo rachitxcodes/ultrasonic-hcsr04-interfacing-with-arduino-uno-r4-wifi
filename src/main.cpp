@@ -6,7 +6,6 @@ void setup() {
     Serial.begin(9600);
     pinMode(triggerPin, OUTPUT);
     pinMode(echoPin, INPUT);
-    Ser
 }
 
 void loop() {
